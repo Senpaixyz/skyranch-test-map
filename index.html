@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas with Image</title>
+    <style>
+        canvas {
+            border: 1px solid #000000;
+        }
+
+        .popup {
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .popup button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="1564" height="762" style="border:1px solid #000000;"></canvas>
+    <div id="popup" class="popup">
+        <p>Pin placed!</p>
+        <button id="closeButton">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<!-- const overlayX = 70;
+const overlayY = 215;
+const overlayWidth = 123;
+const overlayHeight = 140; -->
+<!-- function updateScale() {
+    if (growing) {
+        scale += 0.001;
+        if (scale >= 1.03) {
+            growing = false;
+        }
+    } else {
+        scale -= 0.001;
+        if (scale <= 1) {
+            growing = true;
+        }
+    }
+    drawCanvas();
+    if (isHovering) {
+        requestAnimationFrame(updateScale);
+    }
+} -->
+
+</html>
